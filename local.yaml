@@ -9,7 +9,7 @@ spec:
   project: voice-automation-cd
   source:
     path: apps/local
-    repoURL: 
+    repoURL: https://github.com/sandeepitachi/argocd-poc-automation.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
