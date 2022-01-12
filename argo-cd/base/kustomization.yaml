@@ -8,7 +8,6 @@ resources:
   - github.com/argoproj/argo-cd/manifests/base?ref=v2.1.7
   - github.com/argoproj/argo-cd/manifests/cluster-rbac/?ref=v2.1.7
 
-
 patchesStrategicMerge:
   - argocd-cm.yaml
   
