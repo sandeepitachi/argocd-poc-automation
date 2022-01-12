@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: voice-automation-cd
+  project: argocd-poc-automation
   source:
     path: apps/local
     repoURL: https://github.com/sandeepitachi/argocd-poc-automation.git
