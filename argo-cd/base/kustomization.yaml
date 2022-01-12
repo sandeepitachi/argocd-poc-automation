@@ -10,6 +10,6 @@ resources:
 
 
 patchesStrategicMerge:
-  - local/argocd-cm.yaml
+  - argocd-cm.yaml
   
 namespace: argocd
