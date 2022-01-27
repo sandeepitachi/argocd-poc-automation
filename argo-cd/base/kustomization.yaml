@@ -15,13 +15,3 @@ patchesStrategicMerge:
 namespace: argocd
 
 
-patches:
-  
-- path: ./overlays/argocd-app-controller.yaml
-  target:
-    name: argocd-application-controller
-    kind: StatefulSet
-    group: apps
-    version: v1
-
-
