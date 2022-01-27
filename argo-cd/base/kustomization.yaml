@@ -11,6 +11,10 @@ resources:
 patchesStrategicMerge:
   - argocd-cm.yaml
 
+
+namespace: argocd
+
+
 patches:
   
 - path: ./overlays/argocd-app-controller.yaml
@@ -20,4 +24,4 @@ patches:
     group: apps
     version: v1
 
-namespace: argocd
+
