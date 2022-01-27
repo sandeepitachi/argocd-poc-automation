@@ -13,7 +13,7 @@ patchesStrategicMerge:
 
 patches:
   # XXX: seems missing from newer 2.1 HA install but this matching is silently ignored
-- path: argocd-app-controller.yaml
+- path: ./overlays/argocd-app-controller.yaml
   target:
     name: argocd-application-controller
     kind: StatefulSet
