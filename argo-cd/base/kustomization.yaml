@@ -7,6 +7,7 @@ resources:
   - https://github.com/argoproj/argo-cd/manifests/crds?ref=v2.1.7
   - https://github.com/argoproj/argo-cd/manifests/base?ref=v2.1.7
   - https://github.com/argoproj/argo-cd/manifests/cluster-rbac/?ref=v2.1.7
+  - project.yaml
 
 patchesStrategicMerge:
   - argocd-cm.yaml
